@@ -5,7 +5,7 @@ def call(env)
   if time_now < 12
   resp.write "Good Morning"
   else
-  resp.write "Good afternoon"
+  resp.write "Good Afternoon"
   end
   resp.finish
 end
